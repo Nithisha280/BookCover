@@ -30,5 +30,7 @@ Publish the website in the LocalHost.
 
 PROGRAM:
 OUTPUT:
+<img width="1536" height="1024" alt="The Power of Dreams Book Cover" src="https://github.com/user-attachments/assets/07a60f07-9e5e-43b2-b1aa-58ad33ac9ec3" />
+
 RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
