@@ -1,0 +1,77 @@
+
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Back Cover Page</title>
+
+    <style>
+        body {
+            background-color: #e8d8c3;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .cover {
+            background-color: #3b2435;
+            color: white;
+            width: 350px;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            color: #f5c16c;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 200px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        .author {
+            color: #f5c16c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cover">
+
+        <h1>THE POWER OF DREAMS</h1>
+
+        <img src="{% static 'bookapp/book-cover.png' %}"
+             alt="Book Cover">
+             
+
+        <p>
+            A journey of inspiration, courage and success.
+            Discover the power of your dreams and achieve
+            your goals.
+        </p>
+
+        <p class="author">
+            Written by: John Smith
+        </p>
+
+        <p>
+            ISBN: 978-1234567890
+        </p>
+
+    </div>
+
+</body>
+</html>
